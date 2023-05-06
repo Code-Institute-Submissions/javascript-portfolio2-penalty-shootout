@@ -1,0 +1,65 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    background-color: slategray
+}
+
+/*----------Heading*/
+.heading {
+    text-align: center;
+    text-size: 2.5rem;
+    text-decoration: underline;
+    border: 5px solid #ffd700;
+    background-color: lightblue;
+    color: red;
+    height: auto;
+    width: 50%;
+    margin-left: 550px;
+}
+
+/*---------Game Layout*/
+.game-area {
+    background-color: lightgray;
+    box-sizing: border-box;
+    position: center;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 1%;
+    border: 8px solid #000000;
+}
+
+.contols-area {
+    width: 50%;
+    margin: 40px auto;
+}
+
+/*-------------- Scoring*/
+.scores {
+    display: inline-block;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #000000;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#scored {
+    color: green;
+    font-weight: bold;
+}
+
+#saved {
+    color: red;
+    font-weight: bold;
+}
+
+.score-area {
+    font-size: medium;
+}
+
+.generate.area {
+    font-size: large;
+    border: 3px solid #000000
+}
+
