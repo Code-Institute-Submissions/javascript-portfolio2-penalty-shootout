@@ -31,6 +31,7 @@ body {
 .contols-area {
     width: 50%;
     margin: 40px auto;
+
 }
 
 /*-------------- Scoring*/
@@ -63,3 +64,20 @@ body {
     border: 3px solid #000000
 }
 
+/* -----------Buttons */
+
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #000000;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding: 5px;
+    width: 100px;
+}
