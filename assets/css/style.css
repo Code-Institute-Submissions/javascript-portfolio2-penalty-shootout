@@ -27,9 +27,18 @@ body {
     border: 8px solid #000000;
 }
 
-.game-area img {
+.image {
+    position: relative;
     width: 75%;
     height: 85%;
+}
+
+.image1 {
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 65%;
+    left: 48%;
 }
 
 .game-area .btn--white1 {
@@ -164,6 +173,7 @@ body {
 
 /*-------------- Scoring*/
 .scores {
+    position: relative;
     display: inline-block;
     padding: 20px;
     margin: 50px;
@@ -188,11 +198,12 @@ body {
 }
 
 .generate-area .btn--white10 {
-    font-size: large;
-    border: 3px solid #000000;
+    font-size: x-large;
+    border: 5px solid #000000;
     cursor: pointer;
     display: inline;
     width: fit-content;
+    font-style: italic;
 }
 
 /* -----------Buttons */
@@ -212,3 +223,5 @@ body {
     padding: 5px;
     width: 70px;
 }
+
+/* -------------Media Queries */
