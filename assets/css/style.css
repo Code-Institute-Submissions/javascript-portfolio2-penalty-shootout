@@ -28,14 +28,14 @@ body {
 }
 
 .game-area img {
-    width: 100%;
-    height: auto;
+    width: 75%;
+    height: 85%;
 }
 
 .game-area .btn--white1 {
     position: absolute;
-    top: 55%;
-    left: 32%;
+    top: 30%;
+    left: 29%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -48,8 +48,8 @@ body {
 
 .game-area .btn--white2 {
     position: absolute;
-    top: 65%;
-    left: 32%;
+    top: 41%;
+    left: 29%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -62,8 +62,8 @@ body {
 
 .game-area .btn--white3 {
     position: absolute;
-    top: 75%;
-    left: 32%;
+    top: 53%;
+    left: 29%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -76,8 +76,8 @@ body {
 
 .game-area .btn--white4 {
     position: absolute;
-    top: 55%;
-    left: 46%;
+    top: 30%;
+    left: 47%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -90,8 +90,8 @@ body {
 
 .game-area .btn--white5 {
     position: absolute;
-    top: 65%;
-    left: 46%;
+    top: 41%;
+    left: 47%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -104,8 +104,8 @@ body {
 
 .game-area .btn--white6 {
     position: absolute;
-    top: 75%;
-    left: 46%;
+    top: 53%;
+    left: 47%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -118,8 +118,8 @@ body {
 
 .game-area .btn--white7 {
     position: absolute;
-    top: 55%;
-    left: 61%;
+    top: 30%;
+    left: 66%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -132,8 +132,8 @@ body {
 
 .game-area .btn--white8 {
     position: absolute;
-    top: 65%;
-    left: 61%;
+    top: 41%;
+    left: 66%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -146,8 +146,8 @@ body {
 
 .game-area .btn--white9 {
     position: absolute;
-    top: 75%;
-    left: 61%;
+    top: 53%;
+    left: 66%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
