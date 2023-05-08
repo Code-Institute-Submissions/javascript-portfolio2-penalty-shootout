@@ -34,7 +34,7 @@ body {
 
 .game-area .btn--white1 {
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 29%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
@@ -48,7 +48,7 @@ body {
 
 .game-area .btn--white2 {
     position: absolute;
-    top: 41%;
+    top: 39%;
     left: 29%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
@@ -62,7 +62,7 @@ body {
 
 .game-area .btn--white3 {
     position: absolute;
-    top: 53%;
+    top: 50%;
     left: 29%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
@@ -76,8 +76,8 @@ body {
 
 .game-area .btn--white4 {
     position: absolute;
-    top: 30%;
-    left: 47%;
+    top: 27%;
+    left: 48%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -90,8 +90,8 @@ body {
 
 .game-area .btn--white5 {
     position: absolute;
-    top: 41%;
-    left: 47%;
+    top: 39%;
+    left: 48%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -104,8 +104,8 @@ body {
 
 .game-area .btn--white6 {
     position: absolute;
-    top: 53%;
-    left: 47%;
+    top: 50%;
+    left: 48%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -118,8 +118,8 @@ body {
 
 .game-area .btn--white7 {
     position: absolute;
-    top: 30%;
-    left: 66%;
+    top: 27%;
+    left: 67%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -132,8 +132,8 @@ body {
 
 .game-area .btn--white8 {
     position: absolute;
-    top: 41%;
-    left: 66%;
+    top: 39%;
+    left: 67%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -146,8 +146,8 @@ body {
 
 .game-area .btn--white9 {
     position: absolute;
-    top: 53%;
-    left: 66%;
+    top: 50%;
+    left: 67%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
