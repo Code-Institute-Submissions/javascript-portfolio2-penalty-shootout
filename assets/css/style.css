@@ -7,7 +7,7 @@ body {
 /*----------Heading*/
 .heading {
     text-align: center;
-    text-size: 2.5rem;
+    font-size: 2.5rem;
     text-decoration: underline;
     border: 5px solid #ffd700;
     background-color: lightblue;
@@ -119,7 +119,7 @@ body {
 .game-area .btn--white7 {
     position: absolute;
     top: 55%;
-    left: 59%;
+    left: 61%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -133,7 +133,7 @@ body {
 .game-area .btn--white8 {
     position: absolute;
     top: 65%;
-    left: 59%;
+    left: 61%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -147,7 +147,7 @@ body {
 .game-area .btn--white9 {
     position: absolute;
     top: 75%;
-    left: 59%;
+    left: 61%;
     transform: translate(1px, 1px);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
@@ -159,7 +159,7 @@ body {
 }
 
 .game-area .btn:hover {
-    background-color: black;
+    background-color: lightgrey;
 }
 
 /*-------------- Scoring*/
@@ -187,9 +187,12 @@ body {
     font-size: medium;
 }
 
-.generate.area {
+.generate-area .btn--white10 {
     font-size: large;
-    border: 3px solid #000000
+    border: 3px solid #000000;
+    cursor: pointer;
+    display: inline;
+    width: fit-content;
 }
 
 /* -----------Buttons */
@@ -207,5 +210,5 @@ body {
 
 .btn--big {
     padding: 5px;
-    width: 100px;
+    width: 70px;
 }
