@@ -197,7 +197,7 @@ body {
     font-size: medium;
 }
 
-.generate-area .btn--white10 {
+.game-area .btn--white10 {
     font-size: x-large;
     border: 5px solid #000000;
     cursor: pointer;
@@ -380,6 +380,23 @@ body {
     .btn--big {
         padding: 2px;
         width: 50px;
+    }
+
+    .image1 {
+        position: absolute;
+        width: 3%;
+        height: 4%;
+        top: 43%;
+        left: 48%;
+    }
+
+    .generate-area .btn--white10 {
+        font-size: x-large;
+        border: 5px solid #000000;
+        cursor: pointer;
+        display: inline;
+        width: fit-content;
+        font-style: italic;
     }
 
 }
