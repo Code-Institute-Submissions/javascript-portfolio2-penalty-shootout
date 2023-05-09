@@ -224,12 +224,147 @@ body {
     width: 70px;
 }
 
+/* -------------Offset */
+
 /* -------------Media Queries */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1705px) {
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        text-decoration: underline;
+        border: 5px solid #ffd700;
+        background-color: lightblue;
+        color: red;
+        width: 25%;
+        margin-left: 20px;
+    }
 
+    .game-area .btn--white1 {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .btn--white2 {
+        position: absolute;
+        top: 27%;
+        left: 30%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .btn--white3 {
+        position: absolute;
+        top: 34%;
+        left: 30%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .btn--white4 {
+        position: absolute;
+        top: 20%;
+        left: 48%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .btn--white5 {
+        position: absolute;
+        top: 27%;
+        left: 48%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .btn--white6 {
+        position: absolute;
+        top: 34%;
+        left: 48%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .btn--white7 {
+        position: absolute;
+        top: 20%;
+        left: 65%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .btn--white8 {
+        position: absolute;
+        top: 27%;
+        left: 65%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .btn--white9 {
+        position: absolute;
+        top: 34%;
+        left: 65%;
+        transform: translate(1px, 1px);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
 }
 
-@media screen and (max-width:480px){
-
-}
+@media screen and (max-width:414px) {}
