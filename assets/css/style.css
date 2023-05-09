@@ -365,6 +365,23 @@ body {
         cursor: pointer;
         border-radius: 3px;
     }
+
+    .btn {
+        width: 120px;
+        height: 30px;
+        font-family: "Roboto Condensed", sans-serif;
+        color: #000000;
+    }
+
+    .btn:focus {
+        outline: none;
+    }
+
+    .btn--big {
+        padding: 2px;
+        width: 50px;
+    }
+
 }
 
 @media screen and (max-width:414px) {}
