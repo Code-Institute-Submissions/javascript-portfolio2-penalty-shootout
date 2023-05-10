@@ -197,15 +197,6 @@ body {
     font-size: medium;
 }
 
-.game-area .btn--white10 {
-    font-size: x-large;
-    border: 5px solid #000000;
-    cursor: pointer;
-    display: inline;
-    width: fit-content;
-    font-style: italic;
-}
-
 /* -----------Buttons */
 
 .btn {
@@ -388,15 +379,6 @@ body {
         height: 4%;
         top: 43%;
         left: 48%;
-    }
-
-    .generate-area .btn--white10 {
-        font-size: x-large;
-        border: 5px solid #000000;
-        cursor: pointer;
-        display: inline;
-        width: fit-content;
-        font-style: italic;
     }
 
 }
