@@ -41,10 +41,10 @@ body {
     left: 48%;
 }
 
-.game-area .btn--1 {
+.game-area .control1 {
     position: absolute;
-    top: 27%;
-    left: 29%;
+    top: 24%;
+    left: 36%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -53,10 +53,10 @@ body {
     border-radius: 3px;
 }
 
-.game-area .btn--2 {
+.game-area .control2 {
     position: absolute;
-    top: 39%;
-    left: 29%;
+    top: 35%;
+    left: 36%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -65,10 +65,10 @@ body {
     border-radius: 3px;
 }
 
-.game-area .btn--3 {
+.game-area .control3{
     position: absolute;
-    top: 50%;
-    left: 29%;
+    top: 47%;
+    left: 36%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -77,9 +77,9 @@ body {
     border-radius: 3px;
 }
 
-.game-area .btn--4 {
+.game-area .control4{
     position: absolute;
-    top: 27%;
+    top: 24%;
     left: 48%;
     background-color: black;
     color: white;
@@ -89,9 +89,9 @@ body {
     border-radius: 3px;
 }
 
-.game-area .btn--5 {
+.game-area .control5 {
     position: absolute;
-    top: 39%;
+    top: 35%;
     left: 48%;
     background-color: black;
     color: white;
@@ -101,9 +101,9 @@ body {
     border-radius: 3px;
 }
 
-.game-area .btn--6 {
+.game-area .control6 {
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 48%;
     background-color: black;
     color: white;
@@ -113,10 +113,10 @@ body {
     border-radius: 3px;
 }
 
-.game-area .btn--7 {
+.game-area .control7 {
     position: absolute;
-    top: 27%;
-    left: 67%;
+    top: 24%;
+    left: 63%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -125,10 +125,10 @@ body {
     border-radius: 3px;
 }
 
-.game-area .btn--8 {
+.game-area .control8 {
     position: absolute;
-    top: 39%;
-    left: 67%;
+    top: 35%;
+    left: 63%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -137,10 +137,10 @@ body {
     border-radius: 3px;
 }
 
-.game-area .btn--9 {
+.game-area .control9 {
     position: absolute;
-    top: 50%;
-    left: 67%;
+    top: 47%;
+    left: 63%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -160,17 +160,17 @@ body {
     padding: 10px;
     margin: 10px;
     border: 5px solid #000000;
-    background-color: lightgray;
+    background-color: white;
     font-weight: bold;
     font-size: x-large;
 }
 
-#scored {
+#player-score{
     color: green;
     font-weight: bold;
 }
 
-#saved {
+#opponent-score {
     color: red;
     font-weight: bold;
 }
@@ -179,32 +179,6 @@ body {
     font-size: medium;
 }
 
-/* -----------Buttons */
-
-.btn {
-    width: 220px;
-    height: 60px;
-    font-family: "Roboto Condensed", sans-serif;
-    color: #000000;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.btn--big {
-    padding: 5px;
-    width: 60px;
-    height: 4%;
-}
-
-.generate-area .btn--10 {
-    display: inline-block;
-    height: fit-content;
-    width: fit-content;
-    font-size: 1.5rem;
-    border:4px solid #000000;
-}
 
 /* -------------Media Queries */
 
