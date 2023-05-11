@@ -13,11 +13,7 @@ for (let button of buttons) {
 
 function playGame(playerChoice) {
 
-    buttons = choices[playerChoice];
-
     let computerChoice = Math.floor(Math.random() * 8) + 1;
-
-    buttons = choices[computerChoice];
 
     let result = CheckWinner(choices[computerChoice], choices[playerChoice]);
 
