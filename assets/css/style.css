@@ -19,9 +19,9 @@ body {
 
 /*---------Game Layout*/
 .game-area {
+    position: relative;
     width: 75%;
     background-color: lightgray;
-    position: center;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
@@ -163,24 +163,11 @@ body {
     font-size: x-large;
 }
 
-.player {
-    background-color: white;
-    float: left;
-    width: 20%;
-    border: 5px solid #000000;
-}
-
 #player-score {
     color: green;
     font-weight: bold;
 }
 
-.opponent {
-    background-color: white;
-    float: right;
-    width: 20%;
-    border: 5px solid #000000;
-}
 
 #opponent-score {
     color: red;
@@ -189,8 +176,4 @@ body {
 
 .score-area {
     font-size: medium;
-}
-
-#message {
-    height: 80px;
 }
