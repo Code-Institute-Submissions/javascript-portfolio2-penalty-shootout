@@ -194,13 +194,14 @@ body {
 
 .btn--big {
     padding: 5px;
-    width: 70px;
+    width: 60px;
+    height: 4%;
 }
 
 .generate-area {
     display: inline-block;
-    height: 60px;
-    width: 70px;
+    height: fit-content;
+    width: fit-content;
     font-size: 1.5rem;
     text-transform: uppercase;
 
