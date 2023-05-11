@@ -30,13 +30,13 @@ body {
 .image {
     position: relative;
     width: 65%;
-    height: 45%;
+    height: 65%;
 }
 
 .image1 {
     position: absolute;
-    width: 4%;
-    height: 6%;
+    width: 3%;
+    height: 5%;
     top: 65%;
     left: 48%;
 }
@@ -197,13 +197,13 @@ body {
     width: 70px;
 }
 
-/*--------------Answer-Box*/
-#answer-box {
-    border: 2px solid #000000;
+.generate-area {
     display: inline-block;
-    height: 40px;
-    width: 60px;
-    font-size: 1.rem;
+    height: 60px;
+    width: 70px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
 }
 
 /* -------------Offset */
