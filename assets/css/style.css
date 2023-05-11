@@ -10,7 +10,7 @@ body {
     font-size: 2.5rem;
     text-decoration: underline;
     border: 5px solid #ffd700;
-    background-color: lightblue;
+    background-color: black;
     color: red;
     height: auto;
     width: 50%;
@@ -30,15 +30,15 @@ body {
 
 .image {
     position: relative;
-    width: 65%;
+    width: 75%;
     height: 65%;
 }
 
 .game-area .control1 {
     position: absolute;
     width: 2%;
-    top: 22%;
-    left: 37%;
+    top: 38%;
+    left: 38%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -50,8 +50,8 @@ body {
 .game-area .control2 {
     position: absolute;
     width: 2%;
-    top: 33%;
-    left: 37%;
+    top: 45%;
+    left: 38%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -63,8 +63,8 @@ body {
 .game-area .control3 {
     position: absolute;
     width: 2%;
-    top: 43%;
-    left: 37%;
+    top: 53%;
+    left: 38%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -76,7 +76,7 @@ body {
 .game-area .control4 {
     position: absolute;
     width: 2%;
-    top: 22%;
+    top: 38%;
     left: 48%;
     background-color: black;
     color: white;
@@ -89,7 +89,7 @@ body {
 .game-area .control5 {
     position: absolute;
     width: 2%;
-    top: 33%;
+    top: 45%;
     left: 48%;
     background-color: black;
     color: white;
@@ -102,7 +102,7 @@ body {
 .game-area .control6 {
     position: absolute;
     width: 2%;
-    top: 43%;
+    top: 53%;
     left: 48%;
     background-color: black;
     color: white;
@@ -115,8 +115,8 @@ body {
 .game-area .control7 {
     position: absolute;
     width: 2%;
-    top: 22%;
-    left: 61%;
+    top: 38%;
+    left: 58%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -128,8 +128,8 @@ body {
 .game-area .control8 {
     position: absolute;
     width: 2%;
-    top: 33%;
-    left: 61%;
+    top: 45%;
+    left: 58%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -141,8 +141,8 @@ body {
 .game-area .control9 {
     position: absolute;
     width: 2%;
-    top: 43%;
-    left: 61%;
+    top: 53%;
+    left: 58%;
     background-color: black;
     color: white;
     padding: 5px;
