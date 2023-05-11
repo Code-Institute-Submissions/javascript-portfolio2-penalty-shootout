@@ -25,10 +25,10 @@ function calculateCorrectAnswer(){
 
 }
 function incrementGoalScore(){
-    let oldScore = parseInt(document.getElementById("scored").innerText);
-    document.getElementById("scored").innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById("player-score").innerText);
+    document.getElementById("player-score").innerText = ++oldScore;
 }
 function incrementSavedScore(){
-    let oldScore = parseInt(document.getElementById("saved").innerText);
-    document.getElementById("saved").innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById("opponent-score").innerText);
+    document.getElementById("opponent-score").innerText = ++oldScore;
 }
