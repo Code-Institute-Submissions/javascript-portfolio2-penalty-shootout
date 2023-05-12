@@ -6,17 +6,18 @@ Although nothing is really on the line here, users that play this game will be g
 
 # -Features
 
--Header:
-\*The header stands out against the background and clearly stating what the game is about.
-![Header](assets/images/header.png)
+# Header:
 
-- Game Options:
+- The header stands out against the background and clearly stating what the game is about.
+  ![Header](assets/images/header.png)
+
+* Game Options:
   \*A layout of 9 buttons across the front of a goal, giving the user multiple options from interactive buttons to make their choice.
   ![Button options to choose](assets/images/game-options.png)
-- Game Results:
+* Game Results:
 
-* Once and option is chosen then the JavaScript code will choose a random option for the opposition, then determining who gets the point.
-* The results are situated at the bottom of the screen in to clear and distinctive sections, making it easy to understand.
+- Once and option is chosen then the JavaScript code will choose a random option for the opposition, then determining who gets the point.
+- The results are situated at the bottom of the screen in to clear and distinctive sections, making it easy to understand.
   ![Results](assets/images/game-results.png)
 
 # -Features left to implement
@@ -39,7 +40,7 @@ Although nothing is really on the line here, users that play this game will be g
 - - Errors- No Errors came back from the [W3C validator] (https://validator.we.org/)
     ![Html validator result](assets/images/html-validator-result.png)
     JShint- [JShint validator] (https://jshint.com/)
-    ![JShint result](assets/images/JSHint-result.png)
+    ![JShint result](assets/images/JSHint-results.png)
 
 CSS –[W3C validator] (https://jigsaw.w3.org/css-validator/)
 ![css result](assets/images/css-validator-result.png)

@@ -38,7 +38,7 @@ body {
     position: absolute;
     width: 2%;
     top: 38%;
-    left: 38%;
+    left: 34%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -50,8 +50,8 @@ body {
 .game-area .control2 {
     position: absolute;
     width: 2%;
-    top: 45%;
-    left: 38%;
+    top: 47%;
+    left: 34%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -63,8 +63,8 @@ body {
 .game-area .control3 {
     position: absolute;
     width: 2%;
-    top: 53%;
-    left: 38%;
+    top: 56%;
+    left: 34%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -89,7 +89,7 @@ body {
 .game-area .control5 {
     position: absolute;
     width: 2%;
-    top: 45%;
+    top: 47%;
     left: 48%;
     background-color: black;
     color: white;
@@ -102,7 +102,7 @@ body {
 .game-area .control6 {
     position: absolute;
     width: 2%;
-    top: 53%;
+    top: 56%;
     left: 48%;
     background-color: black;
     color: white;
@@ -116,7 +116,7 @@ body {
     position: absolute;
     width: 2%;
     top: 38%;
-    left: 58%;
+    left: 61%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -128,8 +128,8 @@ body {
 .game-area .control8 {
     position: absolute;
     width: 2%;
-    top: 45%;
-    left: 58%;
+    top: 47%;
+    left: 61%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -141,8 +141,8 @@ body {
 .game-area .control9 {
     position: absolute;
     width: 2%;
-    top: 53%;
-    left: 58%;
+    top: 56%;
+    left: 61%;
     background-color: black;
     color: white;
     padding: 5px;
@@ -176,4 +176,440 @@ body {
 
 .score-area {
     font-size: medium;
+}
+
+/* -----------Media Queries */
+@media screen and (max-width:950px) {
+
+    .heading {
+        text-align: center;
+        font-size: 2.5rem;
+        text-decoration: underline;
+        border: 5px solid #ffd700;
+        background-color: black;
+        color: red;
+        height: auto;
+        width: 50%;
+        margin-left: 230px;
+    }
+
+    .image {
+        position: relative;
+        width: 75%;
+        height: 85%;
+    }
+
+    .scores {
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+        margin: 1px;
+        border: 5px solid #000000;
+        background-color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .game-area .control1 {
+        position: absolute;
+        width: 3%;
+        top: 36%;
+        left: 32%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control2 {
+        position: absolute;
+        width: 3%;
+        top: 45%;
+        left: 32%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control3 {
+        position: absolute;
+        width: 3%;
+        top: 53%;
+        left: 32%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control4 {
+        position: absolute;
+        width: 3%;
+        top: 36%;
+        left: 47%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control5 {
+        position: absolute;
+        width: 3%;
+        top: 45%;
+        left: 47%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control6 {
+        position: absolute;
+        width: 3%;
+        top: 53%;
+        left: 47%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control7 {
+        position: absolute;
+        width: 3%;
+        top: 36%;
+        left: 62%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control8 {
+        position: absolute;
+        width: 3%;
+        top: 45%;
+        left: 62%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control9 {
+        position: absolute;
+        width: 3%;
+        top: 53%;
+        left: 62%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .heading {
+        text-align: center;
+        font-size: 2.5rem;
+        text-decoration: underline;
+        border: 5px solid #ffd700;
+        background-color: black;
+        color: red;
+        height: auto;
+        width: 50%;
+        margin-left: 230px;
+    }
+
+    .image {
+        position: relative;
+        width: 75%;
+        height: 85%;
+    }
+
+    .scores {
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+        margin: 1px;
+        border: 5px solid #000000;
+        background-color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .game-area .control1 {
+        position: absolute;
+        width: 3%;
+        top: 36%;
+        left: 32%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control2 {
+        position: absolute;
+        width: 3%;
+        top: 45%;
+        left: 32%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control3 {
+        position: absolute;
+        width: 3%;
+        top: 53%;
+        left: 32%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control4 {
+        position: absolute;
+        width: 3%;
+        top: 36%;
+        left: 47%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control5 {
+        position: absolute;
+        width: 3%;
+        top: 45%;
+        left: 47%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control6 {
+        position: absolute;
+        width: 3%;
+        top: 53%;
+        left: 47%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control7 {
+        position: absolute;
+        width: 3%;
+        top: 36%;
+        left: 62%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control8 {
+        position: absolute;
+        width: 3%;
+        top: 45%;
+        left: 62%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control9 {
+        position: absolute;
+        width: 3%;
+        top: 53%;
+        left: 62%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .heading {
+        text-align: center;
+        font-size: 2.5rem;
+        text-decoration: underline;
+        border: 5px solid #ffd700;
+        background-color: black;
+        color: red;
+        height: auto;
+        width: 50%;
+        margin-left: 100px;
+    }
+
+    .image {
+        position: relative;
+        width: 95%;
+        height: 85%;
+    }
+
+    .game-area .control1 {
+        position: absolute;
+        width: fit-content;
+        top: 29%;
+        left: 30%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control2 {
+        position: absolute;
+        width: fit-content;
+        top: 34%;
+        left: 30%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control3 {
+        position: absolute;
+        width: fit-content;
+        top: 40%;
+        left: 30%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control4 {
+        position: absolute;
+        width: fit-content;
+        top: 29%;
+        left: 45%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control5 {
+        position: absolute;
+        width: fit-content;
+        top: 34%;
+        left: 45%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control6 {
+        position: absolute;
+        width: fit-content;
+        top: 34%;
+        left: 45%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control7 {
+        position: absolute;
+        width: fit-content;
+        top: 29%;
+        left: 61%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control8 {
+        position: absolute;
+        width: fit-content;
+        top: 34%;
+        left: 61%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .game-area .control9 {
+        position: absolute;
+        width: fit-content;
+        top: 40%;
+        left: 61%;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border: 2px solid #ffd700;
+        cursor: pointer;
+        border-radius: 3px;
+    }
 }
