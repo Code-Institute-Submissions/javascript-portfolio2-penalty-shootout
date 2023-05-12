@@ -11,18 +11,21 @@ Although nothing is really on the line here, users that play this game will be g
 - The header stands out against the background and clearly stating what the game is about.
   ![Header](assets/images/header.png)
 
-* Game Options:
-  \*A layout of 9 buttons across the front of a goal, giving the user multiple options from interactive buttons to make their choice.
+# Game Options:
+
+- A layout of 9 buttons across the front of a goal, giving the user multiple options from interactive buttons to make their choice.
   ![Button options to choose](assets/images/game-options.png)
-* Game Results:
+
+# Game Results:
 
 - Once and option is chosen then the JavaScript code will choose a random option for the opposition, then determining who gets the point.
 - The results are situated at the bottom of the screen in to clear and distinctive sections, making it easy to understand.
+
   ![Results](assets/images/game-results.png)
 
 # -Features left to implement
 
--
+- Feature needed is the games ability to select an option from the buttons available, then have a random picked out. If they matched it would mean a save and added to the save side. If the mismatched then it would be a goal and added to the scored side.
 
 # -Testing
 
@@ -36,11 +39,11 @@ Although nothing is really on the line here, users that play this game will be g
 
 ## Validator Testing-
 
-- Html –
-- - Errors- No Errors came back from the [W3C validator] (https://validator.we.org/)
-    ![Html validator result](assets/images/html-validator-result.png)
-    JShint- [JShint validator] (https://jshint.com/)
-    ![JShint result](assets/images/JSHint-results.png)
+- Html – Errors - No Errors came back from the [W3C validator](https://validator.we.org/)
+  ![Html validator result](assets/images/html-validator-result.png)
+
+  JShint- Several warning but no errors in [JShint validator](https://jshint.com/)
+  ![JShint result](assets/images/JSHint-results.png)
 
 CSS –[W3C validator] (https://jigsaw.w3.org/css-validator/)
 ![css result](assets/images/css-validator-result.png)
@@ -61,4 +64,4 @@ The game was deployed to GitHub pages.
 
 - Icons for buttons the buttons were taken from [FontAwesome](https://fontawesome.com/)
 - The main image was created by me through the Paint app.
-- Podcasts were used as extra learning on things that wasnt clear to me through [Spotify] (https://spotify.com>)
+- Podcasts were used as extra learning on things that wasnt clear to me through [Spotify](https://spotify.com>)
