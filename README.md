@@ -2,7 +2,6 @@
 
 This randomised penalty shootout game, that is targeted towards both adults and children, gives the users to the ability test their decision-making skills. As one of, if not the biggest sport in the world football is a high-performance game, testing not only endurance and physical abilities but mental too. Penalties are incredibly high-pressured situations that require strong will, technique and a bit of luck.
 Although nothing is really on the line here, users that play this game will be gain a small understanding of those situations and can take those newfound or strengthened decision making skills to other parts of their lives. When choosing an option from the interactive buttons another option will be randomly selected and if they match, the penalty will be saved, if not then it will be a goal.
-![Multi website mock up](assets/images/mock-up.png)
 
 # -Features
 
